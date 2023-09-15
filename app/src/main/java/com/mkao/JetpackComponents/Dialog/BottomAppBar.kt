@@ -1,5 +1,6 @@
 package com.mkao.JetpackComponents.Dialog
 
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
@@ -15,14 +16,14 @@ import androidx.compose.ui.unit.dp
 fun BottomAppBarScreen(){
 	Scaffold(
 		bottomBar = {BottomAppBar()}
-	) {paddingValues ->  
+	) {padding ->
 	 LazyColumn(
 		 modifier = Modifier
 			 .fillMaxSize()
-			 .padding(paddingValues),
-		 contentPadding = paddingValues(16.dp)
+			 .padding(padding),
+		 contentPadding = PaddingValues(16.dp)
 	 ){
-		 items(20){
+		 items(50){
 			 ListItem(
 				 headlineContent = { Text(text = "Item $it")},
 				 leadingContent = {
@@ -59,7 +60,7 @@ fun BottomAppBar() {
 		{
 			Icon(Icons.Filled.Add, contentDescription = "null" )
 		}
-   }
+    })
 }
 
 @Preview
