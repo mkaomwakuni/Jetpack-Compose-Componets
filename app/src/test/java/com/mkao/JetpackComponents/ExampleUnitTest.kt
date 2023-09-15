@@ -1,4 +1,4 @@
-package com.mkao.globochataadcoursework
+package com.mkao.JetpackComponents
 
 import org.junit.Test
 
