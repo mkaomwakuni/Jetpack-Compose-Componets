@@ -67,4 +67,5 @@ fun BottomAppBar() {
 @Composable
 fun preViewBottomBar(){
 	BottomAppBar()
+
 }
