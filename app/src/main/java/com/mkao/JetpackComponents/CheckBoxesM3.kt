@@ -62,7 +62,7 @@ fun ListofCheckBoxes() {
                     onCheckedChange = { checkedStatus ->
                         checked = checkedStatus
                     })
-                Toast.makeText(context,"You Checked $toppingsName",Toast.LENGTH_LONG).show()
+                Toast.makeText(context,"You Checked $toppingsName $checked",Toast.LENGTH_LONG).show()
             }
         }
 
