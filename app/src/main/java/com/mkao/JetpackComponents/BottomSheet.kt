@@ -26,10 +26,9 @@ fun  BottomSheet() {
 fun BottomSheetContent (){
 	LazyColumn(
 		contentPadding = PaddingValues(16.dp)){
-		I
+
 		
 			
 		}
 		
 	}
-}
