@@ -5,6 +5,7 @@ plugins {
 
 android {
     compileSdk 33
+    namespace "com.mkao.JetpackComponents"
 
     defaultConfig {
         applicationId "com.mkao.JetpackComponents"
