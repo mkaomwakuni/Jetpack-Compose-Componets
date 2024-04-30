@@ -11,7 +11,6 @@ import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.ThumbUp
 import androidx.compose.material3.FloatingActionButton
 import androidx.compose.material3.Icon
-import androidx.compose.material3.ListItem
 import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -38,8 +37,7 @@ fun NavigationBarWithScaffold(){
         LazyColumn(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(padding),
-            contentPadding = paddingValues(10.dp)
+                .padding(padding)
         ){
             items(50){
                 androidx.compose.material3.ListItem(
