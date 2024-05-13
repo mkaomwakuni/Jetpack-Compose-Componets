@@ -32,7 +32,7 @@ fun CheckBoxesM3 () {
                 uncheckedColor = Color.LightGray
             )
         )
-        Text(text = "BMW")
+        Text(text = "BMW Series")
     }
 }
 @Preview
