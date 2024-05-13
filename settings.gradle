@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Globo Chat AAD Coursework"
+rootProject.name = "Jetpack Compose Components"
 include ':app'
