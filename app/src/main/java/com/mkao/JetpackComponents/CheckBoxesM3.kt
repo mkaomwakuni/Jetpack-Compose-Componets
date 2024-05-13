@@ -40,3 +40,8 @@ fun CheckBoxesM3 () {
 fun CheckedPreview(){
     CheckBoxesM3()
 }
+
+@Composable
+fun ListCheckboxes(){
+
+}
