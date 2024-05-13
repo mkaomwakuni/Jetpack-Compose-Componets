@@ -69,7 +69,6 @@ fun ListofCheckBoxes() {
                     })
                 Text(text = toppingsName)
             }
-
         }
     }
 }
