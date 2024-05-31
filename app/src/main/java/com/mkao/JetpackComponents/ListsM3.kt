@@ -64,7 +64,7 @@ fun ListScreen() {
         StatelessList(
             items = items.value,
             onItemClicked = { selectedItem ->
-                // Handle item click
+
                 println("Clicked on: $selectedItem")
             },
             modifier = Modifier.fillMaxSize()
