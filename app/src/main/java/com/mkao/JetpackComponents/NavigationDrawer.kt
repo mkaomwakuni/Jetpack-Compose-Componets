@@ -85,17 +85,6 @@ fun NavigationDrawerScreen() {
             Box(modifier = Modifier.padding(paddingValues)) {
                 Text("Main content goes here", modifier = Modifier.align(Alignment.Center))
             }
-        },
-        drawerContent = {
-                NavigationDrawer(
-                drawerState = drawerState,
-                onDrawerItemClick = { item ->
-                    scope.launch {
-                        drawerState.close()
-                    }
-                    println("Clicked on: $item")
-                }
-            )
         }
     )
 }

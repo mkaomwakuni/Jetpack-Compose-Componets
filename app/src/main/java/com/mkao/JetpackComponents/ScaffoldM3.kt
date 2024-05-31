@@ -1,5 +1,6 @@
 package com.mkao.JetpackComponents
 
+import android.annotation.SuppressLint
 import androidx.compose.foundation.gestures.rememberScrollableState
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
@@ -29,6 +30,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
+@SuppressLint("SuspiciousIndentation")
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ScaffoldM3() {
