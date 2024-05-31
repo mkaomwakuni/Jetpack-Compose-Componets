@@ -1,4 +1,4 @@
-package com.mkao.JetpackComponents.Button
+package com.mkao.JetpackComponents
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height

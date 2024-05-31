@@ -1,4 +1,4 @@
-package com.mkao.JetpackComponents.Dialog
+package com.mkao.JetpackComponents
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
@@ -15,7 +15,7 @@ import androidx.compose.ui.unit.dp
 @Composable
 fun BottomAppBarScreen(){
 	Scaffold(
-		bottomBar = {BottomAppBar()}
+		bottomBar = { BottomAppBar() }
 	) {padding ->
 	 LazyColumn(
 		 modifier = Modifier

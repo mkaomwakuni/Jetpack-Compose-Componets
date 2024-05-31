@@ -1,6 +1,5 @@
-package com.mkao.JetpackComponents.Dialog
+package com.mkao.JetpackComponents
 
-import android.graphics.drawable.Icon
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding

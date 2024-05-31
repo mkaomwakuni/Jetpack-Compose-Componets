@@ -1,4 +1,4 @@
-package com.mkao.JetpackComponents.Dialog
+package com.mkao.JetpackComponents
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -22,13 +22,12 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.dp
 
 
 @Composable
 fun NavigationBarWithScaffold(){
     Scaffold (
-        bottomBar = { NavigationBarM3()},
+        bottomBar = { NavigationBarM3() },
         floatingActionButton = {
             FloatingActionButton(onClick = { /*TODO*/ }) {
                 Icon(imageVector = Icons.Default.Add, contentDescription = null )
